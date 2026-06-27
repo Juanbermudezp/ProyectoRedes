@@ -1,0 +1,50 @@
+Jun 18 14:28:19.760 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jun 18 14:28:19.763 HYPERVISOR: Started on IP = localhost, TCP port = 53109.
+Jun 18 14:28:19.970 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 18 14:28:19.970 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\jberm\OneDrive\Escritorio\Redes_Proyecto\Edificio\project-files\dynamips 
+Jun 18 14:28:19.980 GENERAL: working_dir=C:\Users\jberm\OneDrive\Escritorio\Redes_Proyecto\Edificio\project-files\dynamips
+Jun 18 14:28:19.980 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\jberm\OneDrive\Escritorio\Redes_Proyecto\Edificio\project-files\dynamips\aac26514-c9b0-4e8d-8ed2-fb62a246680a 
+Jun 18 14:28:19.980 GENERAL: working_dir=C:\Users\jberm\OneDrive\Escritorio\Redes_Proyecto\Edificio\project-files\dynamips\aac26514-c9b0-4e8d-8ed2-fb62a246680a
+Jun 18 14:28:19.980 HYPERVISOR: exec_cmd: vm create R1 1 c3725 
+Jun 18 14:28:19.986 VM: VM R1 created.
+Jun 18 14:28:19.986 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 5001 
+Jun 18 14:28:19.986 HYPERVISOR: exec_cmd: c3725 get_mac_addr R1 
+Jun 18 14:28:19.986 HYPERVISOR: exec_cmd: vm set_disk0 R1 0 
+Jun 18 14:28:19.986 HYPERVISOR: exec_cmd: vm set_exec_area R1 64 
+Jun 18 14:28:19.986 HYPERVISOR: exec_cmd: vm get_status R1 
+Jun 18 14:28:19.986 HYPERVISOR: exec_cmd: vm set_idle_pc R1 0x60c086a8 
+Jun 18 14:28:19.986 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/jberm/GNS3/images/IOS/c3725-adventerprisek9-mz.124-15.T14.image 
+Jun 18 14:28:19.986 HYPERVISOR: exec_cmd: vm set_nvram R1 256 
+Jun 18 14:28:19.990 HYPERVISOR: exec_cmd: vm get_status R1 
+Jun 18 14:28:19.990 HYPERVISOR: exec_cmd: vm slot_add_binding R1 1 0 NM-1FE-TX 
+Jun 18 14:28:19.990 HYPERVISOR: exec_cmd: vm get_status R1 
+Jun 18 14:28:19.990 HYPERVISOR: exec_cmd: vm slot_add_binding R1 2 0 NM-4T 
+Jun 18 14:28:19.990 HYPERVISOR: exec_cmd: vm get_status R1 
+Jun 18 14:28:19.990 HYPERVISOR: exec_cmd: vm slot_add_binding R1 0 16 WIC-1T 
+Jun 18 14:28:19.990 HYPERVISOR: exec_cmd: vm get_status R1 
+Jun 18 14:28:19.990 HYPERVISOR: exec_cmd: vm slot_add_binding R1 0 32 WIC-2T 
+Jun 18 14:28:20.038 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/jberm/GNS3/images/IOS/c3725-adventerprisek9-mz.124-15.T14.image 
+Jun 18 14:28:21.930 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/jberm/GNS3/images/IOS/c3725-adventerprisek9-mz.124-15.T14.image 
+Jun 18 14:47:21.213 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/jberm/GNS3/images/IOS/c3725-adventerprisek9-mz.124-15.T14.image 
+Jun 18 14:53:47.380 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/jberm/GNS3/images/IOS/c3725-adventerprisek9-mz.124-15.T14.image 
+Jun 18 15:04:26.323 HYPERVISOR: exec_cmd: nio create_udp udp-cc2d977e-aad9-4c98-9714-c5706f6046d7 10002 127.0.0.1 10003 
+Jun 18 15:04:26.617 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 0 0 udp-cc2d977e-aad9-4c98-9714-c5706f6046d7 
+Jun 18 15:04:26.617 HYPERVISOR: exec_cmd: vm get_status R1 
+Jun 18 15:05:01.030 HYPERVISOR: exec_cmd: nio create_udp udp-78862ea8-836f-4f50-bcd5-f67a4974254f 10006 127.0.0.1 10007 
+Jun 18 15:05:01.033 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 0 1 udp-78862ea8-836f-4f50-bcd5-f67a4974254f 
+Jun 18 15:05:01.034 HYPERVISOR: exec_cmd: vm get_status R1 
+Jun 18 15:06:15.905 HYPERVISOR: exec_cmd: vm get_status R1 
+Jun 18 15:06:15.906 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding R1 0 1 
+Jun 18 15:06:15.907 HYPERVISOR: exec_cmd: nio delete udp-78862ea8-836f-4f50-bcd5-f67a4974254f 
+Jun 18 15:06:22.351 HYPERVISOR: exec_cmd: nio create_udp udp-315338b4-41e2-4c73-9215-13e379cefdee 10006 127.0.0.1 10007 
+Jun 18 15:06:22.353 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 0 1 udp-315338b4-41e2-4c73-9215-13e379cefdee 
+Jun 18 15:06:22.353 HYPERVISOR: exec_cmd: vm get_status R1 
+Jun 18 15:11:15.603 HYPERVISOR: exec_cmd: vm get_status R1 
+Jun 18 15:11:15.603 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding R1 0 1 
+Jun 18 15:11:15.605 HYPERVISOR: exec_cmd: nio delete udp-315338b4-41e2-4c73-9215-13e379cefdee 
+Jun 18 15:12:41.801 HYPERVISOR: exec_cmd: nio create_udp udp-f0f0036d-c4b9-46be-b940-a3bd1320e852 10006 127.0.0.1 10007 
+Jun 18 15:12:41.803 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 0 1 udp-f0f0036d-c4b9-46be-b940-a3bd1320e852 
+Jun 18 15:12:41.803 HYPERVISOR: exec_cmd: vm get_status R1 
+Jun 18 15:15:33.826 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/jberm/GNS3/images/IOS/c3725-adventerprisek9-mz.124-15.T14.image 
+Jun 18 15:15:34.006 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/jberm/GNS3/images/IOS/c3725-adventerprisek9-mz.124-15.T14.image 
+Jun 18 15:15:34.506 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/jberm/GNS3/images/IOS/c3725-adventerprisek9-mz.124-15.T14.image 

@@ -1,0 +1,2 @@
+set pcname Servidor2
+ip 10.3.200.3 10.3.200.1 24
